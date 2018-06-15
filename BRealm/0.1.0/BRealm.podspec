@@ -11,6 +11,8 @@ Realm binariesssssss
   s.license          = { :type => 'MIT' }
   s.author           = { 'Logan Pazol' => 'logan_pazol@bose.com' }
   s.source           = { :git => 'https://github.com/Logan-Pazol-Bose/LogansPodsContent.git', :tag => s.version.to_s }
+
+  s.script_phase = { :name => 'Hello World', :script => 'echo "Hello World"' }
  
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = '**/BRealm/*.framework'
