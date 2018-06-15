@@ -13,6 +13,7 @@ Realm binariesssssss
   s.source           = { :git => 'https://github.com/Logan-Pazol-Bose/LogansPodsContent.git', :tag => s.version.to_s }
 
   s.script_phase = { :name => 'Hello World', :script => 'echo "Hello World"' }
+  s.script_phase = { :name => 'PWD', :script => 'pwd' }
  
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = '**/BRealm/*.framework'
