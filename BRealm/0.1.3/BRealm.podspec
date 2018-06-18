@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BRealm'
-  s.version          = '0.1.3'
+  s.version          = '0.1.2'
   s.summary          = 'Realm binaries'
  
   s.description      = <<-DESC
@@ -14,6 +14,7 @@ Realm binaries
  
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = '**/BRealm/*.framework'
+  s.source_files = '**/BRealm/*.swift'
 
   s.preserve_paths = '**/BRealm/*'
   s.script_phase      = { :name => 'Install', :script => 'cd BRealm/BRealm && python download.py', :execution_position => :before_compile }
