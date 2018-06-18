@@ -15,6 +15,6 @@ Realm binaries
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = '**/BRealm/*.framework'
 
-  s.script_phase = { :name => 'Install', :script => 'cd BRealm/BRealm && python install.py"' }
+  s.script_phase = { :name => 'Install', :script => 'cd BRealm/BRealm && python install.py', :execution_position => :before_compile }
 
 end
