@@ -16,10 +16,6 @@ Realm binaries
   s.ios.vendored_frameworks = '**/BRealm/*.framework'
 
   s.source_files = '**/BRealm/*.py'
-  s.prepare_command = <<-CMD
-                             pwd
-                             cd Pods/BRealm/BRealm
-                             python download.py
-                         CMD
+  s.prepare_command = 'pwd && cd Pods/BRealm/BRealm && python download.py'
 
 end
