@@ -14,7 +14,7 @@ Realm binaries
  
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = '**/BRealm/*.framework'
-  s.source_files = '**/BRealm/*.swift'
+  s.source_files = '**/BRealm/Source/*.swift'
 
   s.preserve_paths = '**/BRealm/*'
   s.script_phase      = { :name => 'Install', :script => 'cd BRealm/BRealm && python download.py', :execution_position => :before_compile }
