@@ -13,9 +13,7 @@ Realm binaries
   s.source           = { :git => 'https://github.com/Logan-Pazol-Bose/LogansPodsContent.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-  s.ios.vendored_frameworks = '**/BRealm/*.framework'
-  s.source_files = '**/BRealm/Source/*.swift'
-  s.public_header_files = '**/BRealm/RealmSwift.framework/RealmSwift-Swift.h'
+  s.ios.vendored_frameworks = '*.framework'
 
   s.preserve_paths = '**/BRealm/*'
   s.script_phase      = { :name => 'Install', :script => 'cd BRealm/BRealm && python download.py', :execution_position => :before_compile }
