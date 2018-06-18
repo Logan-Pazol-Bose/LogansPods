@@ -17,7 +17,8 @@ Realm binaries
 
   s.source_files = '**/BRealm/*.py'
   s.prepare_command = <<-CMD
-                             cd BRealm/BRealm
+                             pwd
+                             cd Pods/BRealm/BRealm
                              python download.py
                          CMD
 
