@@ -10,7 +10,7 @@ Realm binaries
   s.homepage         = 'https://github.com/Logan-Pazol-Bose/BFBSDK'
   s.license          = { :type => 'MIT' }
   s.author           = { 'Logan Pazol' => 'logan_pazol@bose.com' }
-  s.source           = { :git => 'https://github.com/Logan-Pazol-Bose/BFBSDK', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Logan-Pazol-Bose/BFBSDK.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = '**/BFBSDK/*.framework'
