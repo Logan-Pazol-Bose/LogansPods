@@ -16,6 +16,6 @@ Realm binaries
   s.ios.vendored_frameworks = '**/CryptoSwift/*.framework'
 
   s.preserve_paths = '**/CryptoSwift/*'
-  s.prepare_command = 'cd BRealm && python download.py'
+  s.prepare_command = 'cd CryptoSwift && python download.py'
 
 end
