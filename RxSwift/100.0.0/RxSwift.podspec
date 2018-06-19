@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'RXSwift'
+  s.name             = 'RxSwift'
   s.version          = '100.0.0'
   s.summary          = 'Reactive Swift binaries'
  
