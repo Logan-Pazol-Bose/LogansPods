@@ -16,6 +16,6 @@ Realm binaries
   s.ios.vendored_frameworks = '*.framework'
 
   s.preserve_paths = '**/BRealm/*'
-  s.prepare_command  'cd BRealm && python download.py'
+  s.prepare_command = 'cd BRealm && python download.py'
 
 end
