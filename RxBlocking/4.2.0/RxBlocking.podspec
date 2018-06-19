@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
-  s.name             = 'RxSwift'
+  s.name             = 'RxBlocking'
   s.version          = '4.2.0'
-  s.summary          = 'Reactive Swift binaries'
+  s.summary          = 'Reactive Blocking binaries'
  
   s.description      = <<-DESC
-                            Reactive swift binaries
+                            Reactive Blocking binaries
                        DESC
  
-  s.homepage         = 'https://github.com/Logan-Pazol-Bose/RxSwift'
+  s.homepage         = 'https://github.com/Logan-Pazol-Bose/RxBlocking'
   s.license          = { :type => 'MIT' }
   s.author           = { 'Logan Pazol' => 'logan_pazol@bose.com' }
   s.source           = { :git => 'https://github.com/Logan-Pazol-Bose/BRx.git', :tag => s.version.to_s }
@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '9.0'
 
-  s.ios.vendored_frameworks = '**/RxSwift/*.framework'
+  s.ios.vendored_frameworks = '**/RxBlocking/*.framework'
 
-  s.preserve_paths = '**/RxSwift/*'
-  s.prepare_command = 'cd RxSwift && python download.py'
+  s.preserve_paths = '**/RxBlocking/*'
+  s.prepare_command = 'cd RxBlocking && python download.py'
 
 end

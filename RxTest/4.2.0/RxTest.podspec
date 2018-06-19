@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
-  s.name             = 'RxSwift'
+  s.name             = 'RxTest'
   s.version          = '4.2.0'
-  s.summary          = 'Reactive Swift binaries'
+  s.summary          = 'Reactive Test binaries'
  
   s.description      = <<-DESC
-                            Reactive swift binaries
+                            Reactive Test binaries
                        DESC
  
-  s.homepage         = 'https://github.com/Logan-Pazol-Bose/RxSwift'
+  s.homepage         = 'https://github.com/Logan-Pazol-Bose/RxTest'
   s.license          = { :type => 'MIT' }
   s.author           = { 'Logan Pazol' => 'logan_pazol@bose.com' }
   s.source           = { :git => 'https://github.com/Logan-Pazol-Bose/BRx.git', :tag => s.version.to_s }
@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '9.0'
 
-  s.ios.vendored_frameworks = '**/RxSwift/*.framework'
+  s.ios.vendored_frameworks = '**/RxTest/*.framework'
 
-  s.preserve_paths = '**/RxSwift/*'
-  s.prepare_command = 'cd RxSwift && python download.py'
+  s.preserve_paths = '**/RxTest/*'
+  s.prepare_command = 'cd RxTest && python download.py'
 
 end
