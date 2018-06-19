@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
-  s.name             = 'RXSwift'
-  s.version          = '0.1.0'
+  s.name             = 'RxSwift'
+  s.version          = '100.0.0'
   s.summary          = 'Reactive Swift binaries'
  
   s.description      = <<-DESC
-Realm binaries
+                            Reactive swift binaries
                        DESC
  
   s.homepage         = 'https://github.com/Logan-Pazol-Bose/RxSwift'
