@@ -15,7 +15,7 @@ Realm binaries
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = '**/BCryptoSwift/*.framework'
 
-  s.preserve_paths = '**/CryptoSwift/*'
-  s.prepare_command = 'cd BRealm && python download.py'
+  s.preserve_paths = '**/BCryptoSwift/*'
+  s.prepare_command = 'cd BCryptoSwift && python download.py'
 
 end
