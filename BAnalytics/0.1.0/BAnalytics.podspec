@@ -7,20 +7,17 @@ Pod::Spec.new do |s|
                             Analytics binaries
                        DESC
  
-  s.homepage         = 'https://github.com/Logan-Pazol-Bose/
-s.name             = 'BAnalytics'
+  s.homepage         = 'https://github.com/Logan-Pazol-Bose/BAnalytics'
   s.license          = { :type => 'MIT' }
   s.author           = { 'Logan Pazol' => 'logan_pazol@bose.com' }
-  s.source           = { :git => 'https://github.com/Logan-Pazol-Bose/
-s.name             = 'BAnalytics.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Logan-Pazol-Bose/BAnalytics.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '9.0'
 
-  s.ios.vendored_frameworks = '**/
-s.name             = 'BAnalytics/*.framework'
+  s.ios.vendored_frameworks = '**/BAnalytics/*.framework'
 
   s.preserve_paths = '**/BAnalytics/*'
   s.prepare_command = 'cd BAnalytics && python download.py'
